@@ -55,7 +55,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   height: auto;
   transition: transform 0, 3sec linear;
 }
