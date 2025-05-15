@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+.containerone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(108, 78, 49);
+  color: #fefde7;
+  font-family: abril fatface;
+}
+.itemone {
+  padding: 20px;
+  font-size: 30px;
+}
+.containertwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  background-color: rgb(108, 78, 49);
+  color: #fefde7;
+  margin-top: 0;
+  font-family: abril fatface;
+}
+.itemtwo {
+  font-size: 20px;
+  padding: 20px;
+}
+a {
+  color: #fefde7;
+  transition: transform 0, 3s linear;
+}
+a:hover {
+  transform: scale(1.1);
+  color: white;
+}
+.containerthree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 234, 197);
+  margin-top: 0;
+  padding: 20px;
+  color: rgb(108, 78, 49);
+}
+.mainparagraph {
+  text-align: center;
+}
+.searchbar {
+  border: 2.5px rgb(108, 78, 49) solid;
+  border-radius: 5px;
+}
+.containerfour {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 20px;
+  gap: 10px;
+}
+.itemfour {
+  text-align: center;
+  background-color: rgb(255, 219, 181);
+  border: 2.5px rgb(108, 78, 49) solid;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0, 3sec linear;
+}
+.itemfour:hover {
+  background-color: rgb(255, 234, 197);
+  transform: scale(1.1);
+}
+.featuredsection {
+  background-color: rgb(255, 234, 197);
+  color: rgb(108, 78, 49);
+}
+h2 {
+  margin-left: 20px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+.footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(96, 63, 38);
+  color: rgb(255, 219, 181);
+}
