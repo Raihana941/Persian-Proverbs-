@@ -50,12 +50,13 @@ a:hover {
   border: 2.5px rgb(108, 78, 49) solid;
   border-radius: 8px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 15px;
-  height: 150%;
+  height: auto;
   transition: transform 0, 3sec linear;
 }
 .itemthree:hover {
